@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="isScaleImage" format="boolean"/>
+    <declare-styleable name="ScaleImageView">
+        <attr name="isScaleImage" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="10dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:background="#b7000000"
+    tools:context="com.zhuhu.application_practice.menu.MenuActivity">
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/pic_menu"
+        />
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Guide"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic_guide"
+        />
+        <TextView
+            android:id="@+id/text_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Guide"
+            android:gravity="center"
+            android:text="指路盘"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingTop="10dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Search"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic_search" />
+        <TextView
+            android:id="@+id/text_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Search"
+            android:gravity="center"
+            android:text="寻物箱"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Gifts"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic_gifts" />
+        <TextView
+            android:id="@+id/text_gifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Gifts"
+            android:gravity="center"
+            android:text="百宝袋"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+</LinearLayout>

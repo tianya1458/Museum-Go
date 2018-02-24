@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Museum Go</string>
+    <string name="first">1111</string>
+    <string name="Siyang"></string>
+    <string name="instruction">四羊方尊是中国仍存商代青铜方鼎中
+                               最大的一件，其每边边长为52.4厘米
+                               ，高58.3厘米，重量34.5公斤，长颈
+                               ，高圈足，颈部高耸，四边上装饰有
+                               蕉叶纹、三角夔纹和兽面纹，尊的中
+                               部是器的重心所在，尊四角各塑一羊
+                               ，肩部四角是四个卷角羊头，羊头与
+                               羊颈伸出于器外，羊身与羊腿附着于
+                               尊腹部以及圈足上。</string>
+    <string name="scan1">先人寻古墓，须望气看风水；今人赏古董，亦可一试而知</string>
+    <string name="scan2">（在展厅平面图中点击扫描按钮，会有惊喜出现…）</string>
+    <string name="nogift">您的百宝袋空空如也，快去挖掘属于您的宝物吧</string>
+    <string name="applygift">挖宝</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ask_bt_open">是否要开启蓝牙？</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_siyang"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:background="#b7000000"
+    tools:context="com.zhuhu.application_practice.menu.search.SiyangActivity"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/pic_menu"
+        />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/siyang_title"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="四羊方鼎"/>
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="180dp"
+            android:src="@drawable/pic_siyang"
+            android:paddingTop="20dp"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/siyang_text"
+        android:layout_width="230dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#ffffff"
+        android:text="@string/instruction"
+        />
+
+</LinearLayout>
